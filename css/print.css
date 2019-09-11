@@ -1,0 +1,57 @@
+p {
+display: none;
+}
+
+#page_title {
+
+    display: none;
+}
+
+
+
+menu li {
+
+    display: none;
+}
+
+menu a {
+    display: none;
+    text-decoration: none;
+}
+
+
+input {
+
+    display: none;
+}
+
+
+.container {
+
+    display: flex;
+    border: none;
+
+}
+
+table,
+tr {
+
+    border: none;
+    color: black;
+}
+
+
+
+
+
+
+
+#footer {
+
+    display: none;
+
+}
+
+.logo_foi {
+display: none;
+}

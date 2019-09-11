@@ -1,0 +1,616 @@
+* {
+    /* reset before using my CSS for solving some browser problem
+    see https://stackoverflow.com/questions/29307357/get-rid-of-webkit-padding-start-40px
+    */
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: white;
+    text-align: center;
+    text-align: justify;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+
+body {
+    background-color: #797979;
+}
+
+header {
+    background-size: 250px;
+    background-color: #605c5c;
+    text-align: center;
+}
+
+menu {
+    text-align: center;
+    background-color: #605c5c;
+}
+
+menu li {
+    text-align: center;
+    display: inline-block;
+}
+
+menu a {
+    display: block;
+    width: 110px;
+    padding: 5px 0;
+    /* Ajout de marges internes */
+    text-align: center;
+    /* Centrage du texte à l'intérieur des boutons */
+    border: 1px solid black;
+    /* Ajout d'une bordure de couleur aux boutons */
+    background-color: grey;
+    /* Ajout d'une couleur d'arrière-plan */
+    color: white;
+    /* Modification de la couleur du texte */
+    text-decoration: none;
+    /* Suppression du soulignement des liens */
+    margin: 5px;
+    /* Espacements des boutons */
+    border-radius: 15px;
+    /* Ajout d'arrondis pour les boutons */
+}
+
+menu a:hover {
+    background-color: #605c5c;
+    color: black;
+}
+
+
+#infos_perso {
+
+    background-color:rgb(185, 35, 3);
+    ;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+    border: solid 2px black;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+#infos_perso .BG {
+
+    border-radius: 95px;
+    border: 2px solid black;
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+
+.logo_foi {
+
+    width: 100px;
+}
+
+
+
+#articles_1_a_3 {
+
+    display: flex;
+    flex-direction: column;
+}
+
+#articles_1_a_3 .article1 {
+
+    flex: 1;
+    background-color: rgb(185, 35, 3);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+    border: solid 2px black;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+
+#articles_1_a_3 .article2 {
+    flex: 1;
+    background-color: rgb(185, 35, 3);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+    border: solid 2px black;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+
+#articles_1_a_3 .article3 {
+    flex: 1;
+    background-color: rgb(185, 35, 3);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+    border: solid 2px black;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    flex: 1;
+    text-align: center;
+}
+
+#articles_1_a_3 a:hover {
+
+    background-color: rgb(185, 35, 3);
+    color: #605c5c;
+    text-align: center;
+}
+
+#articles_4_a_6 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#articles_4_a_6 .article4 {
+    flex: 1;
+    background-color: rgb(185, 35, 3);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+    border: solid 2px black;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    padding-right: 15px;
+    text-align: center;
+}
+
+#articles_4_a_6 .article5 {
+    flex: 1;
+    background-color: rgb(185, 35, 3);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+    border: solid 2px black;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+#articles_4_a_6 .article6 {
+    flex: 1;
+    background-color: rgb(185, 35, 3);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+    border: solid 2px black;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+#articles_4_a_6 a:hover {
+    text-decoration: underline;
+    text-align: center;
+    color: #605c5c;
+}
+
+
+
+
+#form {
+
+    background-color: rgb(185, 35, 3);
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#form .auto {
+
+    background-color: grey;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#form .data {
+
+
+    color: white;
+    text-align: center;
+}
+
+
+
+#form .perso {
+
+    background-color: grey;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+
+
+#form .divers {
+
+    background-color: grey;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+
+#form .submit {
+
+    background-color: grey;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 15px
+}
+
+#contact {
+
+    text-align: center;
+}
+
+
+
+
+#footer {
+    background-color: #605c5c;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    /* Aligner sur l'axe principal*/
+    align-items: center;
+    /* Aligner sur l'axe secondaire*/
+    color: white;
+}
+
+
+.container {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+
+thead {
+
+    background-color: rgb(185, 35, 3);
+}
+
+
+#responsive_table {
+
+    overflow-x: auto;
+
+}
+
+#responsive_table2 {
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 5px;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: darkgrey;
+}
+
+tr:hover {
+
+    background-color: grey;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 1px;
+    border-radius: 15px;
+
+}
+
+
+
+
+#login {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    background-color: none;
+    border-radius: 10px;
+    border: none;
+}
+
+#login .field {
+    border: solid black 2px;
+    flex: 3;
+    text-align: center;
+    background-color: grey;
+    border-radius: 15px;
+}
+
+label {
+    color: white;
+
+}
+
+
+input {
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#login .center {
+    flex: auto;
+}
+
+
+
+figcaption {
+    color: white;
+}
+
+
+
+#conteneur_video {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    background-color: rgb(185, 35, 3);
+    border-radius: 10px;
+    border: solid black 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#premiere_ligne {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+#deuxieme_ligne {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+#troisieme_ligne {
+
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+#conteneur_audio {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background-color: rgb(185, 35, 3);
+    border-radius: 10px;
+    border: solid black 2px;
+}
+
+#conteneur_audio .audio {
+
+
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#conteneur_image {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    background-color: rgb(185, 35, 3);
+    border-radius: 10px;
+    border: solid black 2px;
+}
+
+
+#quatrieme_ligne {
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+#cinquieme_ligne {
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+#sixieme_ligne {
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.image {
+
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.video {
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 45px;
+}
+
+
+#registration {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    background-color: grey;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+
+#registration .field {
+    border: none;
+    flex: 3;
+    text-align: center;
+    background-color: none;
+    border-radius: 15px;
+}
+
+#registration .center {
+    flex: auto;
+}
+
+label {
+    font-size: 14px;
+    color: white;
+
+}
+
+input {
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.title {
+
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.center {
+
+    display: flex;
+    flex: 1;
+}
+
+#Model {
+
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
